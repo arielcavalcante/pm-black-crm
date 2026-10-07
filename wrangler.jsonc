@@ -1,0 +1,11 @@
+// Worker só de arquivos estáticos (Cloudflare Workers Builds).
+// O build junta os dist/ já gerados de cada página em ./site.
+{
+  "name": "pm-black-crm",
+  "compatibility_date": "2026-10-06",
+  "assets": {
+    "directory": "./site",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

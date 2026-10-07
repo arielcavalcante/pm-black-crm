@@ -1,0 +1,8 @@
+{
+  "name": "pm-black-crm",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/assemble.mjs"
+  }
+}
